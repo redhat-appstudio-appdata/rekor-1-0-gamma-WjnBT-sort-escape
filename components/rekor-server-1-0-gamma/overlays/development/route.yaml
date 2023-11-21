@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: rekor-server-1-0-gamma
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rekor-server-1-0-gamma
+    app.kubernetes.io/part-of: rekor-1-0-gamma
+  name: rekor-server-1-0-gammaz2xd
+spec:
+  port:
+    targetPort: 3000
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: rekor-server-1-0-gamma
+    weight: 100
+status: {}
