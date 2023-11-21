@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backfill-redis-1-0-gamma
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/backfill-redis-1-0-gamma@sha256:02d37fb3c0b65985456aad2a4e1c1d9c3fad4f792326f1d2bf774a17c2b5149b
+        name: container-image
+        resources: {}
+status: {}
