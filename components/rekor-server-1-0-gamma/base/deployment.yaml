@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rekor-server-1-0-gamma
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/rekor-server-1-0-gamma@sha256:ad6ab5989f60e26bcda15da0de712ea21861948bf6abce47052d88977940707e
         imagePullPolicy: Always
         name: container-image
         ports:
