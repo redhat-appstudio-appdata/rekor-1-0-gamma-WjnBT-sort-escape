@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: backfill-redis-1-0-gamma
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: backfill-redis-1-0-gamma
+    app.kubernetes.io/part-of: rekor-1-0-gamma
+  name: backfill-redis-1-0-gamma
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app.kubernetes.io/instance: backfill-redis-1-0-gamma
+status:
+  loadBalancer: {}
