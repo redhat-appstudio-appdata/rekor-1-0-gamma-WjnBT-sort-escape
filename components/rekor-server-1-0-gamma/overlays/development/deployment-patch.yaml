@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: rekor-server-1-0-gamma
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/rekor-server-1-0-gamma@sha256:ef555548284dd31e97ae0231fc58c261422f04c55b29c450ef62a4ac20315f1e
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/rekor-server-1-0-gamma@sha256:7e8cbf9723c221cd9e38d0a0a0659bddb0c9f2874c3349dc0d7c9233e1039cf8
         name: container-image
         resources: {}
 status: {}
