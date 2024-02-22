@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: backfill-redis-1-0-gamma
     app.kubernetes.io/part-of: rekor-1-0-gamma
-  name: backfill-redis-1-0-gammaju3o
+  name: backfill-redis-1-0-gammarpzh
 spec:
   port:
     targetPort: 6379
