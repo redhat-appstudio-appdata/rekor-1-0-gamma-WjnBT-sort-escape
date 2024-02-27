@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rekor-search-ui-1-0-gamma
     app.kubernetes.io/part-of: rekor-1-0-gamma
-  name: rekor-search-ui-1-0-gammaxred
+  name: rekor-search-ui-1-0-gammaviq8
 spec:
   port:
     targetPort: 3000
