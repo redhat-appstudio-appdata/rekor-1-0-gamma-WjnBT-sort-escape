@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/rekor-search-ui-1-0-gamma@sha256:2899031ab443a6dd3159b65ef521a7d1710503899752343ebac42dd0ff5cfa18
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor-1-0-gamma/rekor-search-ui-1-0-gamma@sha256:f34e5d32b834ba13dd28cc1c8ad9a57d585b7485c8d3149f65fa4ae05300aab4
         name: container-image
         resources: {}
 status: {}
